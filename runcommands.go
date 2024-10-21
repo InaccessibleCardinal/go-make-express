@@ -9,7 +9,7 @@ import (
 	cp "github.com/otiai10/copy"
 )
 
-var destination = "TODO from env or cmd line"
+var destination = "C:\\Users\\kenne\\codebase"
 
 func CopyTempate(projectName, sourceTemplatePath string) string {
 	projectFolder := destination + "\\" + projectName
